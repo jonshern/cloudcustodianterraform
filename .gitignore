@@ -4,3 +4,4 @@
 *key*
 *.tfvars
 *.log
+awscli.1.conf

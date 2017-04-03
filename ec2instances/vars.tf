@@ -6,15 +6,13 @@ variable "REGION" {
 }
 
 variable "PATH_TO_PRIVATE_KEY" {
-  default = "terrawindowskey"
+  default = "inspectortestkey"
 }
 
 variable "PATH_TO_PUBLIC_KEY" {
-  default = "terrawindowskey.pub"
+  default = "inspectortestkey.pub"
 }
 
 variable "INSTANCE_USERNAME" {
-  default = "Terraform"
+  default = "ec2-user"
 }
-
-variable "INSTANCE_PASSWORD" {}
